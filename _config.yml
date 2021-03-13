@@ -3,13 +3,15 @@
 #
 
 # Name of your site (displayed in the header)
-name: Reverie
+name: Lorem Ipsum
+
+# title: Lorem Ipsum
 
 # Name of the author
 author: Andrew Magid
 
 # Short bio or description (displayed in the header)
-description: 
+description: Code, Math, and Goonery
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.github.com/magidandrew.png
@@ -31,7 +33,7 @@ footer-links:
   rss: 
   twitter: 
   stackoverflow: users/5274953
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube:  channel/UC4ALUOykUIjXuB38dqfI4Zw #or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
 
