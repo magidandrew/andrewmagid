@@ -6,7 +6,7 @@ excerpt: The errors with using Processing 3 on macOS, what worked, and what didn
 ---
 
 ## Why To Use a Java IDE 
-Beyond syntax completion, workspace customizability, and other common creature comforts of advanced IDEs, the Processing IDE traded functionality for simplicity which made writing "good code" so much more difficult. Sure, the **omission of access modifiers** like `public` or `private` no longer makes us concered with OOP principles and let's us focus code actually is doing. However, this also makes complex programs so much more difficult to write. We **trade Java classes for `.pde` files** which can be unintuitively created by opening a "new tab" in the IDE. The lack of organization begs for **spaghetti code** as we continue to add methods and custom data structures and **buggy libraries** attempt to replace some of the fundamental libraries of Java (why do we need a Processing GUI library when we have swing?). Did I also mention it doesn't autosave your work? (something I don't wish upon anyone, even my nemisis).
+Beyond syntax completion, workspace customizability, and other common creature comforts of advanced IDEs, the Processing IDE traded functionality for simplicity which made writing "good code" so much more difficult. Sure, the **omission of access modifiers** like `public` or `private` no longer makes us concerned with OOP principles and let's us focus code actually is doing. However, this also makes complex programs so much more difficult to write. We **trade Java classes for `.pde` files** which can be unintuitively created by opening a "new tab" in the IDE. The lack of organization begs for **spaghetti code** as we continue to add methods and custom data structures and **buggy libraries** attempt to replace some of the fundamental libraries of Java (why do we need a Processing GUI library when we have swing?). Did I also mention it doesn't autosave your work? (something I don't wish upon anyone, even my nemesis).
 
 The Processing library makes graphics in Java easy. Daniel Fishman's [coding train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) and the [comprehensive documentation](https://processing.org/reference/) make it approachable and effortless to pick up. But if the Processing IDE is going to translate all my code into Java source anyway, I might as well just do it myself.
 
@@ -63,4 +63,4 @@ export JAVA_HOME="`/usr/libexec/java_home -v 11`"
 Total time: 0 seconds
 ```
 
-- Processing 3 requires Java 8. Using SDK Java9 or higher, there are issues running anything at all. [Stackoverflow Post](https://stackoverflow.com/questions/47343612/cannot-compile-when-importing-processing-library-into-eclipse/48292239#48292239)
+- Processing 3 requires Java 8. Using SDK Java9 or higher, there are issues running anything at all. [StackOverflow Post](https://stackoverflow.com/questions/47343612/cannot-compile-when-importing-processing-library-into-eclipse/48292239#48292239)
