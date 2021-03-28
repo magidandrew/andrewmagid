@@ -51,6 +51,8 @@ public class Main extends PApplet {
     }
 }
 ```
+### Walkthrough
+![Walkthrough](/gifs/ProcessingIntellijSetup.gif)
 
 ## What Didn't Work/Tips
 - Building Processing 4 from source. I could not get `ant` to build the repository, even though my `java_home` and `Java -version` both pointed to Java 11. If you have any ideas on a fix, please send me an email.
