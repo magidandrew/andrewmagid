@@ -10,7 +10,7 @@ Beyond syntax completion, workspace customizability, and other common creature c
 
 The Processing library makes graphics in Java easy. Daniel Shiffman's [coding train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) and the [comprehensive documentation](https://processing.org/reference/) make it approachable and effortless to pick up. But if the Processing IDE is going to translate all my code into Java source anyway, I might as well just do it myself.
 
-## Processing 3 Issues on Mac
+## Processing 3 Issues on Mac 
 When trying to recreate Daniel Shiffman's [Perlin Noise Landscape Generator](https://thecodingtrain.com/CodingChallenges/011-perlinnoiseterrain.html), I noticed that Processing 3 would throw out the following error:
 
 ```
