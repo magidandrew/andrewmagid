@@ -43,7 +43,7 @@ There are five elements that set the time and frequency of a job.
 minute hour day(month) month day(week)
 ```
 
-The `*` symbol can be used to declare any value and the `/` symbol allows the value to be a step value (ex. setting `/5` will mean *every* 5 minutes).
+The `*` symbol can be used to declare any value and the `/` symbol allows it to be a step value (ex. setting `/5` will mean *every* 5 minutes).
 
 [crontab guru](https://crontab.guru/) is a great cron schedule expressions editor and has a brief overview of the syntax. It's a great way to sanity check your cronjobs.
 
