@@ -54,6 +54,7 @@ The `*` symbol can be used to declare any value and the `/` symbol allows it to 
 ```
 
 
+
 ``` bash
 #!/bin/bash
 #PluggedInMonitor.sh
