@@ -3,6 +3,7 @@ layout: post
 title: How to use Processing 4 in external Java IDE (and why you might want to)
 categories: Setup
 excerpt: The errors with using Processing 3 on macOS, what worked, and what didn't
+
 ---
 
 ## Why To Use a Java IDE 

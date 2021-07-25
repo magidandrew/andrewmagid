@@ -24,7 +24,7 @@ avatar: /images/worms_site_pic_small.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: magid.andrew@gmail.com
+  email: hq@andrewmagid.com
   facebook:
   flickr:
   github: magidandrew
@@ -86,6 +86,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-toc
 
 include: ['_pages']
 
