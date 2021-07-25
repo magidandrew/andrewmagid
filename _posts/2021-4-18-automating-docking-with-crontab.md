@@ -48,12 +48,11 @@ The `*` symbol can be used to declare any value and the `/` symbol allows it to 
 [crontab guru](https://crontab.guru/) is a great cron schedule expressions editor and has a brief overview of the syntax. It's a great way to sanity check your cronjobs.
 
 ## My Script
-
+cronjob:
 ```
 */5 * * * * bash ~/Documents/programming/myutils/PluggedInMonitor.sh >/dev/null 2>&1
 ```
-<br/><br/>
-
+PluggedInMonitor.sh
 ``` bash
 #!/bin/bash
 #PluggedInMonitor.sh
