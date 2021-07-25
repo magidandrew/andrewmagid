@@ -52,8 +52,7 @@ The `*` symbol can be used to declare any value and the `/` symbol allows it to 
 ```
 */5 * * * * bash ~/Documents/programming/myutils/PluggedInMonitor.sh >/dev/null 2>&1
 ```
-
-
+<br/><br/>
 
 ``` bash
 #!/bin/bash
